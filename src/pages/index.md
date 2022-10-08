@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Toastmasters D'Expression Francaise De Kitchner
-image: https://toastmasterscdn.azureedge.net/medias/images/brand-items/toastmasterswordmarkcolor.jpg
+image: /img/toastmasterswordmarkcolor.jpeg
 heading: Great coffee with a conscience
 subheading: Toastmaster
 mainpitch:
