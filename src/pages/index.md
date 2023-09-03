@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Les Toastmasters D'Expression Française De Kitchener
 image: /img/toastmasterswordmarkcolor.jpeg
-heading: Great coffee with a conscience
+heading: Meetings are held every Wednesdays at 7pm in Kitchener
 subheading: Toastmaster
 mainpitch:
   title: Les Toastmasters D'Expression Française De Kitchener Club 04638847 Area 61 Division W District 86
@@ -10,13 +10,11 @@ mainpitch:
 
     Nous sommes un groupe de Toastmasters Francophones et Francophiles qui se rencontre pour développer
 
-    Meetings are held Wednesdays at 7pm in Kitchener, Ontario
+description: >-
+    Kitchener Française Toastmasters was chartered in 2015 and is one of the more than 12,000 Toastmasters International clubs worldwide which provide speaking and leadership french skills to members.
 
+    Our club provides a friendly and supportive environment where members develop their Communication and Leadership skills in French each week in an energized meeting.
 
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
 intro:
   blurbs:
     - image:

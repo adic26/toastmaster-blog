@@ -39,6 +39,8 @@ export const IndexPageTemplate = ({
                         Guests are always welcome:&nbsp;
                         <a href="/contact">CONTACT US </a>
                       </div>
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
                     </div>
                   </div>
