@@ -25,20 +25,7 @@ const Navbar = () => {
                 re-write that makes this unneccesary.
              */
         }
-        <li className="navbar-item" style={{
-            padding: "0px"
-          }}>
-          <Link className="navbar-item" to="/about">
-            About
-          </Link>
-        </li>
-        <li className="navbar-item" style={{
-            padding: "0px"
-          }}>
-          <Link className="navbar-item" to="/products">
-            Products
-          </Link>
-        </li>
+
         <li className="navbar-item" style={{
             padding: "0px"
           }}>
@@ -51,13 +38,6 @@ const Navbar = () => {
           }}>
           <Link className="navbar-item" to="/contact">
             Contact
-          </Link>
-        </li>
-        <li className="navbar-item" style={{
-            padding: "0px"
-          }}>
-          <Link className="navbar-item" to="/contact/examples">
-            Form Examples
           </Link>
         </li>
         <li className="navbar-item" style={{

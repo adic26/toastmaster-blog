@@ -16,7 +16,6 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -33,8 +32,14 @@ export const IndexPageTemplate = ({
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
-                    <div className="tile">
+                    <div className="tile mainpitch_description">
                       <h3 className="subtitle">{mainpitch.description}</h3>
+                      <div className="contact_us">
+                        <div className="main_contact_us">
+                        Guests are always welcome:&nbsp;
+                        <a href="/contact">CONTACT US </a>
+                      </div>
+
                     </div>
                   </div>
                   <div className="columns">
@@ -45,7 +50,10 @@ export const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
+                  {/*
+                    <Features gridItems={intro.blurbs} />
+
+
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
@@ -53,6 +61,7 @@ export const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div>
+                    */}
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
@@ -69,6 +78,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
+      </div>
       </section>
     </div>
   );
@@ -81,9 +91,6 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -98,7 +105,6 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   );
@@ -131,18 +137,6 @@ export const pageQuery = graphql`
           description
         }
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }

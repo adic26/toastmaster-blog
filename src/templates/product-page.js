@@ -40,7 +40,7 @@ export const ProductPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <Features gridItems={intro.blurbs} /> 
+                <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-3">
@@ -101,9 +101,6 @@ ProductPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
@@ -112,7 +109,6 @@ ProductPageTemplate.propTypes = {
     image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   }),
   testimonials: PropTypes.array,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   pricing: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
@@ -130,10 +126,8 @@ const ProductPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
-        intro={frontmatter.intro}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
-        fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
       />
     </Layout>
@@ -162,18 +156,6 @@ export const productPageQuery = graphql`
         }
         heading
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
         main {
           heading
           description
@@ -207,11 +189,6 @@ export const productPageQuery = graphql`
           quote
         }
 
-        full_image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
         pricing {
           heading
           description

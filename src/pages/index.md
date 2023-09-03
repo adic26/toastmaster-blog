@@ -1,21 +1,25 @@
 ---
 templateKey: index-page
-title:
+title: Les Toastmasters D'Expression Française De Kitchener
 image: /img/toastmasterswordmarkcolor.jpeg
 heading: Great coffee with a conscience
 subheading: Toastmaster
 mainpitch:
-  title: Les Toastmasters D'Expression Française De Kitchener
+  title: Les Toastmasters D'Expression Française De Kitchener Club 04638847 Area 61 Division W District 86
   description: >-
-    
+
     Nous sommes un groupe de Toastmasters Francophones et Francophiles qui se rencontre pour développer
+
+    Meetings are held Wednesdays at 7pm in Kitchener, Ontario
+
+
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
   knowledge to anyone.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image:
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
