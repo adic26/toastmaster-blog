@@ -56,6 +56,30 @@ export const IndexPageTemplate = ({
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.998630835544!2d-80.46926172257065!3d43.439744571113145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf4dabccaaca3%3A0x2b26b599f684cf0c!2sRockway%20Centre!5e0!3m2!1sen!2sca!4v1693919513530!5m2!1sen!2sca" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                   </div>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                  <div className="mini_container">
+                    <div className="title">What is Toastmaster all about?</div>
+
+                    <div className="video">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/h1U0rW8ms1o" title="CJ Janzen | Testimonial | What is Toastmasters all about?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div className="title">How can Toastmaster help you?</div>
+
+                    <div className="video">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ydb4DXSvRQc" title="Kevin Swayze | Toastmasters Testimonial | How Can Toastmasters Help You?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <div className="testimonial">
+                      <div className="content">
+                        <div className="name">John Doe</div>
+                        <div className="text">This is a beautiful testimonial. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                      </div>
+                    </div>
+                  </div>
+
                   {/*
                     <Features gridItems={intro.blurbs} />
 
