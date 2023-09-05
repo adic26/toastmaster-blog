@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Les Toastmasters D'Expression Française De Kitchener
 image: /img/toastmasterswordmarkcolor.jpeg
-heading: Meetings are held every Wednesdays at 7pm in Kitchener
+heading: Meetings are held every Wednesdays at 7pm in Kitchener. First of the month in person at Rockway Centre
 subheading: Toastmaster
 mainpitch:
   title: Les Toastmasters D'Expression Française De Kitchener Club 04638847 Area 61 Division W District 86
