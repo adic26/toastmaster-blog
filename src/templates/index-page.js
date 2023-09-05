@@ -63,15 +63,16 @@ export const IndexPageTemplate = ({
                     <div className="title">What is Toastmaster all about?</div>
 
                     <div className="video">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/h1U0rW8ms1o" title="CJ Janzen | Testimonial | What is Toastmasters all about?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/pF7iXEu-aOE?si=cCkOI1ktSeJMPxbh" title="C'est Quoi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div className="title">How can Toastmaster help you?</div>
 
-                    <div className="video">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ydb4DXSvRQc" title="Kevin Swayze | Toastmasters Testimonial | How Can Toastmasters Help You?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
+
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+                    <div className="title">What do our members say?</div>
+
                     <div className="testimonial">
                       <div className="content">
                         <div className="name">John Doe</div>
@@ -79,6 +80,10 @@ export const IndexPageTemplate = ({
                       </div>
                     </div>
                   </div>
+
+
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
                   {/*
                     <Features gridItems={intro.blurbs} />
